@@ -20,3 +20,10 @@
 
   See INSTRUCTIONS.txt in the package for full manual-install/uninstall
   steps and troubleshooting.
+
+  ### How to build it yourself
+  1. download openal_proxy.c (source code)
+  2. download build.py (build script)
+  3. put both into a folder and run build.py and it will compile it into OpenAL64.dll
+  This does not automatically install the patch, just compiles my custom proxy
+  from the source code that your can inspect yourself.
